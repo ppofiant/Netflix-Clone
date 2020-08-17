@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #010b13;
+}
+
+.container_email {
+    background: url(../assets/background-netflix.jpg);
+    background-size: cover;
+    position: static;
+    color: white;
+}
+
+.logo-masuk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-masuk .netflix-banner {
+    margin: 0px 40px;
+}
+
+.logo-masuk .netflix-banner img {
+    width: 24%;
+    height: 24%;
+}
+
+.masuk_netflix {
+    margin: 0px 40px;
+    padding: 8px 15px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.masuk_netflix a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper-description-email {
+    width: 100%;
+    height: 100%;
+    margin: 80px auto;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.description-home {
+    width: 40%;
+    margin: auto;
+}
+
+.description-home h1 {
+    font-size: 50px;
+}
+
+.description-home h3 {
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.masukkan-email {
+
+}
+
+.masukkan-email h3 {
+    font-size: 15px;
+    margin: 10px auto;
+    font-weight: normal;
+}
+
+.masukkan-email span {
+    
+}
+
+.masukkan-email span input {
+    padding: 20px 200px 20px 5px;
+    font-size: 16px;
+}
+
+.masukkan-email .mulai {
+    background-color: red;
+    padding: 18px 30px;
+    font-size: 24px;
+}
+
+.masukkan-email .mulai a {
+    text-decoration: none;
+    color: white;
+}
+
+.masukkan-email .mulai:hover {
+    background-color: #ff1110;
+}
+
+.wrapper {
+    background-color: #000;
+    margin: 5px 0px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.wrapper-box {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-box .box-desc h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.wrapper-box .box-desc p {
+    font-size: 22px;
+}
+
+.wrapper-box .box-img img {
+    width: 100%;
+}
+
+.container-faq .wrapper {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.faq {
+    margin: 50px auto;
+}
+
+.container-footer {
+    background-color: black;
+    color: grey;
+}
+
+.footer {
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+
+.footer .contact {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.footer .container-submenu {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-submenu .submenu {
+    max-width: 1000px;
+    margin: 30px 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.container-submenu .submenu:first-child {
+    margin-left: 0px;
+}
+
+.container-submenu .submenu p:hover {
+    text-decoration: underline;
+}
+
+.copyright p {
+    font-size: 12px;
+}
