@@ -1,5 +1,6 @@
 # Netflix-Clone
 inspiration by www.netflix.com - Netflix Indonesia
+link : https://ppofiant.github.io/Netflix-Clone/
 
 documentation log: (per-commit)
 - create mock up only
