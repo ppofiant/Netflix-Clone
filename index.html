@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Indonesia - Tonton Acara Netflix</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/n-logo.png">
 </head>
 <body>
     <div class="container_email">
@@ -25,7 +26,7 @@
     
             <div class="masukkan-email">
                 <h3>Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</h3>
-                <span><input type="text" id="email" name="email" placeholder="Alamat email"></span><span class="mulai"><a href="#">MULAI</a></span>
+                <span><input type="text" id="email1" name="email" onkeyup="getEmail1()" placeholder="Alamat email"></span><span class="mulai"><a href="#">MULAI &gt;</a></span>
             </div>
         </div>
     </div>
@@ -72,9 +73,42 @@
                 <h1>Tanya Jawab Umum</h1>
             </div>
 
+            <div class="wrapper-box-faq">
+                <div class="navigation">
+                    <ul>
+                        <li id="pop-upli1" onclick="openPopUpFaq1()"> Apa itu Netflix?<span id="symbol1">&plus;</span></li>
+                        <div class="pop-up-box-faq" id="pop-up1">
+                            <p>Netflix adalah layanan streaming yang menawarkan berbagai acara TV pemenang penghargaan, film, anime, dokumenter, dan banyak lagi di ribuan perangkat yang terhubung ke Internet.
+                                <br>
+                                <br>
+                                Kamu bisa menonton sepuasnya, kapan pun kamu mau tanpa satu iklan pun – semuanya dengan satu harga bulanan yang murah. Selalu ada tontonan baru dan acara TV serta film baru yang ditambahkan setiap minggu!</p>
+                        </div>
+                        <li onclick="openPopUpFaq2()"> Berapa biaya berlangganan Netflix?<span id="symbol2">&plus;</span></li>
+                        <div class="pop-up-box-faq" id="pop-up2">
+                            <p>Tonton Netflix di smartphone, tablet, Smart TV, laptop, atau perangkat streaming-mu, semuanya dengan satu harga bulanan tetap Rentang harga mulai dari Rp54.000 hingga Rp186.000 per bulan. Tanpa biaya ekstra, tanpa kontrak.</p>
+                        </div>
+                        <li onclick="openPopUpFaq3()"> Di mana saya bisa menonton?<span id="symbol3">&plus;</span></li>
+                        <div class="pop-up-box-faq" id="pop-up3">
+                            <p>Tonton di mana pun dan kapan pun, di perangkat apa saja. Masuk ke akun Netflix-mu untuk menonton langsung di netflix.com dari komputer pribadi atau di perangkat yang terhubung ke Internet dan mendukung aplikasi Netflix, termasuk smart TV, smartphone, tablet, pemutar media streaming, dan konsol game.
+                                <br>
+                                <br>
+                                Kamu juga bisa men-download acara favoritmu dengan aplikasi iOS, Android, atau Windows 10. Gunakan download untuk menonton saat kamu di perjalanan dan tidak punya koneksi Internet. Bawa Netflix ke mana saja.</p>
+                        </div>
+                        <li onclick="openPopUpFaq4()"> Bagaimana cata membatalkannya?<span id="symbol4">&plus;</span></li>
+                        <div class="pop-up-box-faq" id="pop-up4">
+                            <p>Netflix fleksibel. Tanpa kontrak menyebalkan dan tanpa komitmen. Kamu dapat dengan mudah membatalkan akunmu secara online dengan dua kali klik. Tanpa biaya pembatalan – mulai atau hentikan akunmu kapan pun.</p>
+                        </div>
+                        <li onclick="openPopUpFaq5()"> Apa yang bisa ditonton di Netflix?<span id="symbol5">&plus;</span></li>
+                        <div class="pop-up-box-faq" id="pop-up5">
+                            <p>Netflix memiliki pustaka lengkap yang berisi film panjang, film dokumenter, acara TV, anime, Netflix original pemenang penghargaan, dan lebih banyak lagi. Tonton sepuasnya, kapan pun kamu mau.</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
             <div class="masukkan-email">
                 <h3>Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</h3>
-                <span><input type="text" id="email" name="email" placeholder="Alamat email"></span><span class="mulai"><a href="#">MULAI</a></span>
+                <span><input type="text" id="email2" name="email" placeholder="Alamat email"></span><span class="mulai"><a href="#">MULAI &gt;</a></span>
             </div>
         </div>
     </div>
@@ -83,7 +117,7 @@
     <div class="container-footer">
         <div class="footer">
             <div class="contact">
-                <p>Just cloning to improve my front development. Contact us <a href="#">001-123-321-1234</a></p>
+                <p>Just cloning. Contact us <a href="#">001-123-321-1234</a></p>
             </div>
             <div class="container-submenu">
                 <div class="submenu">
@@ -116,4 +150,6 @@
         </div>
     </div>
 </body>
+<script src="js/scripts.js"></script>
+</script>
 </html>
