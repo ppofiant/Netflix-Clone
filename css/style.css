@@ -238,6 +238,22 @@ body {
     text-decoration: underline;
 }
 
+.region-dropdown {
+    margin-bottom: 30px;
+}
+
+.region-dropdown #region-language{
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    outline: none;
+    border: 1px solid grey;
+    padding: 10px 5px
+}
+#region-language option {
+    color: black;
+}
+
 .copyright p {
     font-size: 12px;
 }
