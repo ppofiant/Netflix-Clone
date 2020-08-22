@@ -71,7 +71,6 @@ body {
 
 .masukkan-email {
     text-align: center;
-    min-width: 600px;
 }
 
 .masukkan-email h3 {
@@ -81,14 +80,14 @@ body {
 }
 
 .masukkan-email span input {
-    padding: 20px 200px 20px 5px;
+    padding: 25px 200px 20px 5px;
     font-size: 16px;
     outline: none;
 }
 
 .masukkan-email .mulai {
     background-color: red;
-    padding: 18px 30px;
+    padding: 20px 30px;
     font-size: 24px;
 }
 
@@ -105,19 +104,23 @@ body {
     background-color: #000;
     margin: 5px 0px;
     color: white;
-    padding: 50px 0px;
+    padding: 50px 50px;
 }
 
 .wrapper-box {
-    width: 60%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1100px;
+}
+
+.wrapper-box .box-desc {
+    padding-right: 50px;
 }
 
 .wrapper-box .box-desc h1{
-    font-size: 40px;
+    font-size: 3.125rem;
     margin-bottom: 5px;
 }
 
@@ -126,7 +129,8 @@ body {
 }
 
 .wrapper-box .box-img img {
-    width: 100%;
+    width: 350px;
+    height: 250px;
 }
 
 .container-faq .wrapper {
@@ -141,8 +145,8 @@ body {
 }
 
 .navigation {
-    width: 50%;
-    min-width: 600px;
+    width: 100%;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -151,37 +155,34 @@ body {
     background-color: #787276;
     padding: 18px 30px;
     cursor: pointer;
-    font-size: 25px;
     margin: 3px 0px;
     border-radius: 2px;
 }
 
 .navigation ul li span {
     float: right;
-    font-size: 32px;
 }
 
 .pop-up-box-faq {
     width: 100%;
     height: 0;
     overflow: hidden;
-    margin: 2px 0px;
     transition: height 0.5s;
 }
 
 .pop-up-box-faq p{
     background-color: #787276;
     padding: 18px 30px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin: 2px 0px;
     transition: height 0.5s;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navigation ul li{
     color: white;
     text-decoration: none;
     text-align: left;
+    font-size: 20px;
 }
 
 .faq {
@@ -192,7 +193,6 @@ body {
 .container-footer {
     background-color: black;
     color: grey;
-    min-width: 600px;
 }
 
 .footer {
@@ -219,11 +219,11 @@ body {
 
 .footer .container-submenu {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .container-submenu .submenu {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 30px 20px;
     margin-top: 10px;
     font-size: 12px;
@@ -256,4 +256,89 @@ body {
 
 .copyright p {
     font-size: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .description-home {
+        width: 80%;
+    }
+
+    .description-home h1 {
+        font-size: 40px;
+    }
+
+    .masukkan-email {
+        width: 100%;
+    }
+
+    .box-email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .masukkan-email .mulai {
+        font-size: 14px;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 15px 20px;
+    }
+
+    .masukkan-email span input {
+        font-size: 12px;
+        padding: 15px 0px;
+        padding-right: 90px;
+    }
+
+    .wrapper-box {
+        flex-direction: column;
+    }
+
+    .wrapper-box .box-desc {
+        text-align: center;
+    }
+
+    .wrapper-box .box-desc h1{
+        font-size: 30px;
+    }
+
+    .wrapper-box .box-desc p {
+        font-size: 20px;
+    }
+
+    .wrapper-box .box-img {
+        min-width: 200px;
+    }
+
+    .faq {
+        margin-bottom: 50px;
+    }
+
+    .navigation ul li {
+        font-size: 16px;
+    }
+
+    .pop-up-box-faq p{
+        font-size: 14px;
+    }
+
+    .footer {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        padding: 40px 10px;
+    }
+
+    .navigation ul li {
+        font-size: 12px;
+        min-width: 350px;
+    }
+
+    .pop-up-box-faq p{
+        font-size: 10px;
+    }
 }

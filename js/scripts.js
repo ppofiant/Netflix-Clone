@@ -87,7 +87,7 @@ function openPopUpFaq4() {
         document.getElementById("pop-up4").style.height = "100%";
         replace = '&times;';
     }
-    document.getElementById("symbol1").innerHTML = replace;
+    document.getElementById("symbol4").innerHTML = replace;
 }
 
 function openPopUpFaq5() {
